@@ -10,24 +10,43 @@ Payroll2021
 400 for commission and 0.6 each sale for commission workers
 
 **Problem Inputs**:
+
 String input
+
 int empID
+
 Double salary
+
 Double yearlySalary
+
 Double hourlyRate
+
 Int hoursWorked
+
 Int empCode
 
-**Problem Outputs**: int empID
+**Problem Outputs**: 
+
+int empID
+
 Double salary
+
 Double yearlySalary
+
 Double hourlyRate
+
 Double paycheck
+
 Int hoursWorked
+
 Double tax
 
 **Relevant Formulas**:
+
 paycheck =	(hoursWorked * hourlyRate) + newHours * hourlyRate * 1.5 * tax;
+
 paycheck = hourlyRate * hoursWorked * tax;
+
 paycheck = (400 + (0.065 * sales)) * tax;
+
 yearlySalary = (salary * 52 * tax);
